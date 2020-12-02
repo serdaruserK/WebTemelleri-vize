@@ -1,0 +1,129 @@
+<html lang="en">
+<head>
+<title>CSS Template</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+h1{
+    color: rgb(54, 24, 24);
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:lawngreen;
+}
+a{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:aqua;
+}
+img {
+    margin-top: 5px;
+    margin-bottom:5px;
+    margin-left: 5px;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h2 {
+    font-size: 50px;
+}
+
+header {
+    border: 3px solid black;
+  background-color: #974c4c;
+  padding: 30px;
+  text-align:center;
+  font-size: 35px;
+  color: rgb(32, 26, 26);
+}
+
+
+nav {
+  float: left;
+  width: 30%;
+  height: 400px; 
+  background: #974c4c;
+  padding: 20px;
+}
+
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  text-align: left;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+article {
+  border: 3px solid black;
+  float: left;
+  padding: auto;
+  width: 70%;
+  background-color: #974c4c;
+  height: 400px;
+  
+}
+
+
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+  border: 3px solid black;
+}
+
+footer {
+  background-color: #922e2e;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+</head>
+<body>
+
+
+<header>
+  
+  <h2>Elon Musk</h2>
+  
+</header>
+
+<section>
+  <nav>
+    <img src = "elonmusk.jpg"; width="120" height=120>
+    <ul>
+      <li><a href="#">SpaceX</style></a></li>
+      <li><a href="#">Tesla Inc.</a></li>
+      <li><a href="#">SolarCity</a></li>
+      <li><a href="#">OpenAl</a></li>
+      <li><a href="#">Neuralink</a></li>
+    </ul>
+  </nav>
+  
+  <article>
+    <h1>Elon Musk</h1>
+    <p>Elon Musk, (28 Haziran 1971) mühendis, endüstriyel tasarımcı, teknoloji girişimcisi ve hayırseverdir. Doğduğu ülke Güney Afrika dışında, Kanada ve Birleşik Devletler vatandaşıdır. Musk aynı zamanda SpcaeX'in kurucusu, CEO'su ve mühendislik ile tasarım ofisleri şefi, erken yatırımcı, Tesla, Inc.'in CEO'su ve ürün mimarı, The Boring Company'nin kurucusu, Neuralink'in kurucu ortağı, OpenAl'nin kurucu ortağı ve ilk eş-başkanıdır. 2019'da Forbes'un yayımladığı "Dünyanın En Yenilikçi İnsanları" listesinde ilk sırada yer aldı.</p>
+    <p>Mayıs 2002'de Musk, havacılık teknolojisi üreticisi ve uzay taşımacılığı hizmetleri şirketi olan SpaceX'i kurdu. Elektrikli araç üreticisi Tesla Inc.'e kuruluşundan bir yıl sonra, 2004'te katıldı ve ürün mimarı oldu; 2008'de de şirketin CEO'su oldu. 2006'da, güneş enerjisi hizmetleri şirketi olan SolarCity'nin kurulmasına yardımcı oldu ve şirketinin kolları altına aldı. Musk, 2015'te ise dost canlısı olarak gördüğü yapay zekayı teşvik etmeyi amaçlayan, kâr amacı gütmeyen bir araştırma şirketi olan OpenAl'yi kurdu. Temmuz 2016'da, beyin-bilgisayar arayüzlerini geliştirmeye odaklanmış bir nöroteknoloji şirketi olan Neuralink'i kurdu.</p>
+  </article>
+</section>
+
+<footer>
+  <p>"https://tr.wikipedia.org/wiki/Elon_Musk"</p>
+</footer>
+
+</body>
+</html>
